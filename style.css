@@ -855,10 +855,20 @@ padding-top: 13px;
 /* .footer__block__logo{
 
 } */
+.menu-shad{
+    display: none;
+    flex-direction: column;
+}
+.first-page__header__left-part__menu-icon:hover~.menu-shad{
+    display: flex;
+}
 
 
-
-
+@media(min-width: 1668px){
+    .first-page__content{
+        padding-bottom: 40vw;
+    }
+}
 @media(max-width: 1817px){
     .fifth-page__container-for-interfaces__table{
         grid-template-columns: 1fr 184.5px 184.5px 1fr;
